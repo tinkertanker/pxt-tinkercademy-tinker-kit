@@ -4,7 +4,8 @@
     "description": "Tinkercademy package for the tinker:kit",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "OLED": "github:Tinkertanker/pxt-oled-ssd1306"
     },
     "files": [
         "README.md",
