@@ -1,6 +1,6 @@
 # Tinkercademy tinker:kit MakeCode Package
 
-Work in progress - check back later!
+This is for the Tinkercademy micro:bit Tinker Kit. 
 
 ## Supported targets
 
