@@ -11,6 +11,8 @@
         "README.md",
         "tinkercademy.ts"
     ],
-    "testFiles": [],
+    "testFiles": [
+      "tests.ts"
+    ],
     "public": true
 }
