@@ -13,6 +13,8 @@ This is a collection of libraries to support the [Tinkercademy Tinker Kit](https
 * Potentiometer
 * LED Bricks in 3 colours
 
+## Blocks
+
 This package includes the following new MakeCode drawers and blocks, helping to abstract pin read/write concepts into simple-to-understand blocks:
 
 * OLED package ([source](https://github.com/Tinkertanker/pxt-oled-ssd1306))
@@ -21,6 +23,14 @@ This package includes the following new MakeCode drawers and blocks, helping to 
 * Soil Moisture Sensor: block to retrieve the soil moisture reading from the sensor
 * ADKeypad: blocks to test for each button pressed
 * LED: block to toggle the LED on or off
+
+## Meta
+
+Tutorials: [Tinkercademy Micro:bit Page](http://tinkercademy.com/microbit)
+
+Questions? [Email us](mailto:hello@tinkercademy.com)
+
+Keywords: tinkerkit, GVS, tinkertanker
 
 ## Supported targets
 
