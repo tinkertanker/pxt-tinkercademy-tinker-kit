@@ -5,7 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "OLED": "github:Tinkertanker/pxt-oled-ssd1306"
+        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v1.2.10"
     },
     "files": [
         "README.md",
@@ -14,5 +14,6 @@
     "testFiles": [
         "tests.ts"
     ],
-    "public": true
+    "public": true,
+    "preferredEditor": "tsprj"
 }
