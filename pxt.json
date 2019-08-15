@@ -1,6 +1,6 @@
 {
     "name": "tinkercademy-tinker-kit",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "Tinkercademy package for the Tinker Kit",
     "license": "MIT",
     "dependencies": {
