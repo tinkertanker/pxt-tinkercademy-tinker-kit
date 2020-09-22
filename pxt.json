@@ -9,7 +9,9 @@
     },
     "files": [
         "README.md",
-        "tinkercademy.ts"
+        "tinkercademy.ts",
+        "_locales/zh-CN/tinkercademy-tinker-kit-strings.json",
+        "_locales/zh-CN/tinkercademy-tinker-kit-jsdoc-strings.json"
     ],
     "testFiles": [
         "tests.ts"
