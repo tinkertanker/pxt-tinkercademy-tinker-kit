@@ -1,0 +1,10 @@
+{
+  "tinkercademy.ADKeyboard|block": "按钮 %k | 被按下 ADKey键盘 %p",
+  "tinkercademy.LED|block": "LED %p | 切换为 %state",
+  "tinkercademy.MoistureSensor|block": "水位传感器 %p 水位值",
+  "tinkercademy.PIR|block": "运动检测模块 %p | 检测到运动",
+  "tinkercademy.crashSensorSetup|block": "设置碰撞开关连接到 %p",
+  "tinkercademy.crashSensor|block": "碰撞开关被按下",
+  "tinkercademy|block": "tinkercademy",
+  "{id:category}Tinkercademy": "Tinkercademy"
+}

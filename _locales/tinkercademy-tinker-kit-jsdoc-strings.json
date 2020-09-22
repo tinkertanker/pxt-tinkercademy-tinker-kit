@@ -1,0 +1,10 @@
+{
+  "ADKeys": "Use this file to define custom functions and blocks.\nRead more at https://pxt.microbit.org/blocks/custom",
+  "tinkercademy": "Custom blocks",
+  "tinkercademy.ADKeyboard": "Checks if the specified key on the ADkeyboard is pressed.",
+  "tinkercademy.LED": "Toggles an LED on or off.",
+  "tinkercademy.MoistureSensor": "Returns the value of the moisture sensor on a scale of 0 to 100.",
+  "tinkercademy.PIR": "Checks whether the motion sensor is currently detecting any motion.",
+  "tinkercademy.crashSensor": "Checks whether the crash sensor is currently pressed.",
+  "tinkercademy.crashSensorSetup": "IMPORTANT: Sets up the motion sensor."
+}

@@ -1,6 +1,6 @@
 {
     "name": "tinkercademy-tinker-kit",
-    "version": "1.0.11",
+    "version": "1.1.0",
     "description": "Tinkercademy package for the Tinker Kit",
     "license": "MIT",
     "dependencies": {
@@ -9,11 +9,16 @@
     },
     "files": [
         "README.md",
-        "tinkercademy.ts"
+        "tinkercademy.ts",
+        "_locales/zh-CN/tinkercademy-tinker-kit-strings.json",
+        "_locales/zh-CN/tinkercademy-tinker-kit-jsdoc-strings.json"
     ],
     "testFiles": [
         "tests.ts"
     ],
     "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
     "preferredEditor": "tsprj"
 }

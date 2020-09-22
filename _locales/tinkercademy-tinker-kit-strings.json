@@ -1,0 +1,10 @@
+{
+  "tinkercademy.ADKeyboard|block": "key %k | is pressed on ADKeyboard at pin %p",
+  "tinkercademy.LED|block": "toggle LED at pin %p | %state",
+  "tinkercademy.MoistureSensor|block": "value of moisture sensor at pin %p",
+  "tinkercademy.PIR|block": "motion detector at pin %p | detects motion",
+  "tinkercademy.crashSensorSetup|block": "Setup crash sensor at pin %p",
+  "tinkercademy.crashSensor|block": "crash sensor pressed",
+  "tinkercademy|block": "tinkercademy",
+  "{id:category}Tinkercademy": "Tinkercademy"
+}
