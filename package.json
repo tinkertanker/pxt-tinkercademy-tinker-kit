@@ -1,11 +1,10 @@
 {
   "name": "pxt-tinkercademy-tinker-kit",
   "version": "1.0.0",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "pxt": "^0.3.0",
-    "pxt-microbit": "^0.14.34"
+    "pxt-microbit": "^0.14.58"
   },
   "scripts": {
     "pxt:init": "pxt target microbit",
