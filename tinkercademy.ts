@@ -50,18 +50,26 @@ namespace tinkercademy {
     //% blockId=octopus_adkeyboard weight=90 blockGap=30
     //% block="key %k | is pressed on ADKeyboard at pin %p"
     export function ADKeyboard(k: ADKeys, p: AnalogPin): boolean {
-        let a: number = pins.analogReadPin(p);
-        if (a < 10 && k == 1) {
-            return true;
-        } else if (a >= 40 && a <= 60 && k == 2) {
-            return true;
-        } else if (a >= 80 && a <= 110 && k == 3) {
-            return true;
-        } else if (a >= 130 && a <= 150 && k == 4) {
-            return true;
-        } else if (a >= 530 && a <= 560 && k == 5) {
-            return true;
-        } else return false;
+        return curADKeyboardKey(p) == k;
+    }
+
+    /**
+     * Returns the currently pressed key on the ADKeyboard.
+     * If no key is pressed, returns 0.
+     */
+    //% blockId=octopus_adkeyboard weight=90 blockGap=30
+    //% block="currently pressed key on ADKeyboard at pin %p"
+    export function curADKeyboardKey(p: AnalogPin): number {
+        const a: number = pins.analogReadPin(p);
+
+        if (a < 10) return ADKeys.A;
+        if (a >= 40 && a <= 60) return ADKeys.B;
+        if (a >= 80 && a <= 110) return ADKeys.C;
+        if (a >= 130 && a <= 150) return ADKeys.D;
+        if (a >= 530 && a <= 560) return ADKeys.E;
+
+        // No key is pressed
+        return 0;
     }
 
     /**
